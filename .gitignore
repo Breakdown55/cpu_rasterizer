@@ -2,5 +2,4 @@
 SDL3/
 *.exe
 *.o
-*.obj
 demo
