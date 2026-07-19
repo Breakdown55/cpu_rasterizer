@@ -156,7 +156,7 @@ cd ..
 - When we divide vertex positions by `z` to get proper perspective, we lose the linear relationship between screen pixels and UV position. So, instead of interpolating `u` and `v` directly, I interpolate `u/z`, `v/z`, and `1/z` across the triangle, which do vary linearly in screen space. To recover the perspective-correct UV at each pixel, we can solve for `u` in `u = (u/z) / (1/z)`. Linear interpolation only works if that variable actually varies linearly with screen position in the first place.
 
 ### The Problem:
-- How should we require the user of this rasterizer to rotate objects? There were 3 common options I chose to weigh, and I did so in this weighted decision matrix:
+- How should we require the user of this rasterizer to rotate objects? There were 3 common options I chose to weigh, and I did so in this weighted decision matrix (click for higher res):
 
 ![Rotation method comparison](images/decision_matrix.png)
 
