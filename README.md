@@ -41,7 +41,7 @@ This project is a CPU-based software 3D renderer built from scratch in C, using 
 
 * Pixel, line, rectangle, and circle drawing directly into the framebuffer
 * Adjustable-thickness line drawing (DDA-based)
-* Scanline-based circle fill (no per-pixel distance check)
+* Scanline-based circle fill
 ### Windowing & Frame Pipeline
 
 * Manual framebuffer management (custom pixel array, avoiding SDL's draw calls)
