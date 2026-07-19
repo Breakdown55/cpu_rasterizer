@@ -3,9 +3,10 @@
 
 ## Demo:
 
- [Full demo video (60 fps)](http://www.youtube.com/watch?v=lUOemYvbTUM)
- 
-![Software Rasterizer Demo](images/demo.gif)
+ [Demo video (60 fps)](http://www.youtube.com/watch?v=lUOemYvbTUM)
+
+*(Single frame)* 
+![Software Rasterizer Demo](images/david.png)
 
 ## Overview
 
