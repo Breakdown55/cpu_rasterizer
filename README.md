@@ -83,7 +83,7 @@ This project is a CPU-based software 3D renderer built from scratch in C, using 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/framebuffer.git
+git clone https://github.com/Breakdown55/cpu_rasterizer
 cd framebuffer
 ```
 
