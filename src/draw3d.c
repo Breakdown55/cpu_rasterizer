@@ -25,7 +25,7 @@ void SetCullingMode(int cull_mode) {
     culling_mode = cull_mode;
 }
 
-/// @brief Creates a rotation matrix applicable to every 3D drawing until END_RotMat() is called
+/// Creates a rotation matrix applicable to every 3D drawing until END_RotMat() is called
 void BEGIN_RotMat(float theta, float px, float py, float pz, float nx, float ny, float nz) {
     rot_mat_defined = true;
 
