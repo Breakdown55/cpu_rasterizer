@@ -84,7 +84,7 @@ This project is a CPU-based software 3D renderer built from scratch in C, using 
 
 ```bash
 git clone https://github.com/Breakdown55/cpu_rasterizer
-cd framebuffer
+cd cpu_rasterizer
 ```
 
 ### 2. Install the SDL3 development libraries
