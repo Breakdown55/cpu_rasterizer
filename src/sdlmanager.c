@@ -28,7 +28,7 @@ void PushToFrameBuffer(uint32_t *pixels, int screen_width) {
     
     SDL_UpdateTexture(tex, NULL, pixels, screen_width * sizeof(uint32_t));  // send to gpu
     SDL_RenderTexture(ren, tex, NULL, NULL);   // write to back buffer
-    SDL_RenderPresent(ren); // flip back buffer to frame buffer
+    SDL_RenderPresent(ren); // flip back buffer to front buffer
 }
 
 
